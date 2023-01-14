@@ -30,9 +30,9 @@ def particular_letter(array, letter)
   end
 end
  
-# p particular_letter(beverages_array, letter_o)
+p particular_letter(beverages_array, letter_o)
    # output: ["coffee", "soda water"]
-# p particular_letter(beverages_array, letter_t)
+p particular_letter(beverages_array, letter_t)
    # output: ["tea", "water", "soda water"]
  
 # p particular_letter(beverages_array, 'm')
@@ -62,7 +62,7 @@ def no_nested(hash)
    hash.values.flatten.sort
 end
  
-# p no_nested(us_states)
+p no_nested(us_states)
 # // output: ["Arizona", "California", "Idaho", "Maine", "Nevada", "New Hampshire", "Oregon", "Rhode Island", "Washington"]
  
 # def no_nested(hash)
